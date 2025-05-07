@@ -13,7 +13,7 @@ export class AppController {
   getTest(): Object {
     return { data: '테스트임둥', message: '테스트' }
   }
-  @Get("test")
+  @Get("siuu")
   getSiuuu(): Object {
     return { data: 'Siuuu', message: 'Siuuu' }
   }
